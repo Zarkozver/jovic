@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="mailto:office@lexmedia.rs" />
+    <meta
+      name="keywords"
+      content="Lex Media, Marketing, foto, Video, Promo, Web, "
+    />
+    <meta
+      name="description"
+      content="LEX Media je nastala kao spoj drugarstva, kreativnosti 
+      i posla. Iako novi na tržištu iza nas je dosta ozbiljnih projekata
+       i zadovoljnih klijenata. Naš tim čine profesionalci koji svojim
+        iskustvom i posvećenošću garantuju najbolji kvalitet za vas."
+    />
+
+    <meta name="copyright" content="Lex Media 2022. Sva prava zadržava." />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="shortcut icon" href="img/letter-logo1.ico" type="image/x-icon" />
+    <title>Žarko Jović - Designer at Web</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light px-3 position-absolute w-100"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand primary-font fs-2" id="brand-name" href="#"
+          >ŽJ</a
+        >
+        <!-- <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div
+          class="collapse navbar-collapse primary-font justify-content-center"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav text-uppercase">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+              >Disabled</a
+            >
+          </div>
+        </div>
+        <div class="sidemenu-button">
+          <a href="#" id="btn-side" class="text-black">
+            <iconify-icon
+              icon="bx:plus"
+              id="plus-side"
+              class="fs-1"
+            ></iconify-icon>
+          </a>
+        </div>
+      </div>
+      <!-- SIDENAV -->
+      <div id="sidenav">
+        <div class="sidenav-name">
+          <h3 class="primary-font">
+            <span class="bg-white"> Žarko Jović </span>
+          </h3>
+          <p class="primary-font text-white fst-italic fs-5 mt-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem minima
+            vitae quaerat quod dicta aliquid necessitatibus veniam molestias,
+            dolorem ea voluptates, fugit explicabo itaque ut officiis,
+            exercitationem reiciendis. Deleniti, doloribus?
+          </p>
+          <div class="sidenav-tabs">
+            <h4 class="primary-font text-uppercase fs-1 fst-italic">
+              <a href="#" class="text-white text-decoration-none"> HOME</a>
+            </h4>
+            <h4 class="primary-font text-uppercase fs-1 fst-italic">
+              <a href="#" class="text-white text-decoration-none"> About</a>
+            </h4>
+            <h4 class="primary-font text-uppercase fs-1 fst-italic">
+              <a href="#" class="text-white text-decoration-none"> Services</a>
+            </h4>
+            <h4 class="primary-font text-uppercase fs-1 fst-italic">
+              <a href="#" class="text-white text-decoration-none"> Portfolio</a>
+            </h4>
+            <h4 class="primary-font text-uppercase fs-1 fst-italic">
+              <a href="#" class="text-white text-decoration-none"> Contact</a>
+            </h4>
+          </div>
+          <div class="sidenav-icons">
+            <p class="mt-3 text-center">
+              <a href="#" class="text-white fs-4 mx-2 text-decoration-none"
+                ><iconify-icon
+                  icon="simple-line-icons:social-instagram"
+                ></iconify-icon
+              ></a>
+              <a href="#" class="text-white fs-4 mx-2 text-decoration-none">
+                <iconify-icon
+                  icon="simple-line-icons:envolope"
+                ></iconify-icon> </a
+              ><a href="#" class="text-white fs-4 mx-2 text-decoration-none">
+                <iconify-icon
+                  icon="simple-line-icons:social-github"
+                ></iconify-icon> </a
+              ><a href="#" class="text-white fs-4 mx-2 text-decoration-none"
+                ><iconify-icon
+                  icon="simple-line-icons:social-linkedin"
+                ></iconify-icon>
+              </a>
+              <!-- <iconify-icon icon="simple-line-icons:envolope"></iconify-icon> -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- COVER -->
+    <div id="cover">
+      <div class="container-fluid h-100 d-flex align-items-center p-0">
+        <div class="cover-text-display position-absolute">
+          <h1 class="text-white primary-font fst-italic text-white">
+            DESIGNER
+          </h1>
+        </div>
+        <div class="cover-carousel w-100">
+          <div id="coverCarousel" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container-fluid h-100">
+                  <div class="row">
+                    <div
+                      class="col-lg-4 offset-lg-2 col-md-5 offset-md-1 d-flex justify-content-center flex-column"
+                    >
+                      <h1
+                        class="primary-font fade-in-right text-black fw-bold display-cover fst-italic"
+                      >
+                        DESIGN FOR ETERNITY
+                      </h1>
+                      <p class="mt-3 fade-in-right-2">
+                        <a href="#" class="primary-btn"> PORTFOLIO </a>
+                      </p>
+                    </div>
+                    <div class="col-sm-6">
+                      <img
+                        src="img/cover-3a.png"
+                        alt="cover img"
+                        class="slider-img scale-in-center"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container-fluid h-100">
+                  <div class="row row-reverse">
+                    <div class="col-sm-6 d-flex display-img-wrap">
+                      <img
+                        src="img/cover-1a.png"
+                        alt="cover img"
+                        class="slider-img scale-in-center"
+                      />
+                    </div>
+                    <div
+                      class="col-lg-4 col-md-5 offset-md-1 d-flex justify-content-center flex-column"
+                    >
+                      <h1
+                        class="primary-font fade-in-right text-black fw-bold display-cover fst-italic"
+                      >
+                        DESIGN FOR ETERNITY
+                      </h1>
+                      <p class="mt-3 fade-in-right-2">
+                        <a href="#" class="primary-btn"> PORTFOLIO </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container-fluid h-100">
+                  <div class="row">
+                    <div
+                      class="col-lg-4 offset-lg-2 col-md-5 offset-md-1 d-flex justify-content-center flex-column"
+                    >
+                      <h1
+                        class="primary-font fade-in-right text-black fw-bold display-cover fst-italic"
+                      >
+                        DESIGN FOR ETERNITY
+                      </h1>
+                      <p class="mt-3 fade-in-right-2">
+                        <a href="#" class="primary-btn"> PORTFOLIO </a>
+                      </p>
+                    </div>
+                    <div class="col-sm-6">
+                      <img
+                        src="img/cover-2a.png"
+                        alt="cover img"
+                        class="slider-img scale-in-center"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ABOUT -->
+    <div id="about">
+      <marquee BEHAVIOR="alternate" Scrollamount="10" direction="">
+        <h1 class="primary-font sliding-text">
+          WEB AGENCY WEB AGENCY WEB AGENCY WEB AGENCY WEB AGENCY WEB AGENCY WEB
+          AGENCY WEB AGENCY
+        </h1>
+      </marquee>
+      <div class="container my-5">
+        <h2 class="primary-font text-black display-1 fw-bold">
+          BOLD ENOUGH TO DARE
+        </h2>
+        <div class="row mt-5">
+          <div class="col-sm-4">
+            <h4 class="primary-font h3 fw-bold text-black mt-4">ABOUT ME</h4>
+            <p class="paragraph-font text-black">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              ex nisi fuga illo aut accusamus ipsa dicta? Incidunt, modi
+              facilis.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <h4 class="primary-font h3 fw-bold text-black mt-4">OUR PROCESS</h4>
+            <p class="paragraph-font text-black">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              ex nisi fuga illo aut accusamus ipsa dicta? Incidunt, modi
+              facilis.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <h4 class="primary-font h3 fw-bold text-black mt-4">MY GOAL</h4>
+            <p class="paragraph-font text-black">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              ex nisi fuga illo aut accusamus ipsa dicta? Incidunt, modi
+              facilis.
+            </p>
+          </div>
+        </div>
+      </div>
+      <h3
+        class="primary-font mt-5 pt-lg-5 pt-md-0 text-uppercase text-black display-3 fw-bold text-center"
+      >
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      </h3>
+      <div class="background-space">
+        <img src="img/planina-1a.png" alt="planina" class="" />
+      </div>
+      <!-- <img src="img/planina-1a.png" alt="planina" class="img-fluid mb-5" /> -->
+    </div>
+    <!-- SERVICES -->
+    <div id="services" class="bg-white m-0">
+      <div class="service-title">
+        <h2 class="primary-font display-3 py-5 fst-italic text-center">
+          MY<br />SERVICES
+        </h2>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 service">
+            <div class="service-overlay so-1">
+              <h4 class="primary-font fw-bold text-center">UI/UX DESGIN</h4>
+              <p class="secondary-font fs-5 text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium officiis, quisquam odio aut minima quibusdam.
+              </p>
+            </div>
+            <div class="d-flex justify-content-center flex-column">
+              <img src="img/service-1.png" alt="service" />
+              <h4 class="primary-font fw-bold text-center">UI/UX DESGIN</h4>
+            </div>
+          </div>
+          <div class="col-sm-6 service">
+            <div class="service-overlay so-2">
+              <h4 class="primary-font fw-bold text-center">WEB DESIGN</h4>
+              <p class="secondary-font fs-5 text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium officiis, quisquam odio aut minima quibusdam.
+              </p>
+            </div>
+            <div class="d-flex justify-content-center flex-column">
+              <img src="img/service-2.png" alt="service" />
+              <h4 class="primary-font fw-bold text-center">WEB DESIGN</h4>
+            </div>
+          </div>
+          <div class="col-sm-6 service">
+            <div class="service-overlay so-3">
+              <h4 class="primary-font fw-bold text-center">
+                RESPONSIVE DESIGN
+              </h4>
+              <p class="secondary-font fs-5 text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium officiis, quisquam odio aut minima quibusdam.
+              </p>
+            </div>
+            <div class="d-flex justify-content-center flex-column">
+              <img src="img/service-3.png" alt="service" />
+              <h4 class="primary-font fw-bold text-center">
+                RESPONSIVE DESIGN
+              </h4>
+            </div>
+          </div>
+          <div class="col-sm-6 service">
+            <div class="service-overlay so-4">
+              <h4 class="primary-font fw-bold text-center">SEO</h4>
+              <p class="secondary-font fs-5 text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium officiis, quisquam odio aut minima quibusdam.
+              </p>
+            </div>
+            <div class="d-flex justify-content-center flex-column">
+              <img src="img/service-4.png" alt="service" />
+              <h4 class="primary-font fw-bold text-center">SEO</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TESTIMONIALS -->
+    <div id="testimonials" class="bg-white">
+      <div class="container">
+        <div class="row d-flex justify-content-start align-items-center">
+          <div class="quote">
+            <div class="quote-wrap">
+              <iconify-icon
+                icon="fontisto:quote-left"
+                class="icon-quote h2"
+              ></iconify-icon>
+            </div>
+          </div>
+
+          <div class="col-sm-8">
+            <div class="testimonial">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <h3 class="primary-font h1 text-uppercase fw-bold">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </h3>
+                    <p
+                      class="secondary-font text-uppercase d-flex align-items-center"
+                    >
+                      Zarko Jovic
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <h3 class="primary-font h1 text-uppercase fw-bold">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </h3>
+                    <p class="secondary-font text-uppercase">Zarko Jovic</p>
+                  </div>
+                  <div class="carousel-item">
+                    <h3 class="primary-font h1 text-uppercase fw-bold">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </h3>
+                    <p class="secondary-font text-uppercase">Zarko Jovic</p>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Iconify Design -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+    <!-- <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script> -->
+    <!-- Boostrap 5 JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      $("#btn-side").click(function () {
+        $("#plus-side").toggleClass("side-btn-transition");
+        $("#brand-name").toggleClass("text-white");
+        $("#sidenav").toggleClass("translate-x");
+        // $("#sidenav").css({"transform":"translate(0px) !important"});​
+      });
+      var myCarousel = document.querySelector("#coverCarousel");
+      var carousel = new bootstrap.Carousel(myCarousel, {
+        pause: false,
+        interval: 5000,
+      });
+    </script>
+  </body>
+</html>
